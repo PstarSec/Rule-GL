@@ -12,19 +12,19 @@
 
 - **python rule.py -h#使用帮助**
 
-  <img src="D:\桌面\博客文章\New笔记\笔记截图\image-20241123225123701.png" alt="image-20241123225123701" style="zoom:80%;" />
+  
 
 - **python rule.py -ul #规则管理模块**
 
-  ![image-20241123225206795](D:\桌面\博客文章\New笔记\笔记截图\image-20241123225206795.png)
+  
 
 -  **python .\rule.py -u #指定文件路径 默认输出到当前位置，文件名+时间戳**
 
-  ![image-20241123225324173](D:\桌面\博客文章\New笔记\笔记截图\image-20241123225324173.png)
+  
 
 - **python .\rule.py -u  url.txt  -o  output.txt  指定输出**
 
-  ![image-20241123225400884](D:\桌面\博客文章\New笔记\笔记截图\image-20241123225400884.png)
+  
 
 # 关于后期
 
