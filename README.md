@@ -12,19 +12,19 @@
 
 - **python rule.py -h#使用帮助**
 
-  ![image](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/image-202415466.png)
+  ![image](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/20244243435.png)
 
 - **python rule.py -ul #规则管理模块**
 
-  ![image](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/image-20246575.png)
+  ![image](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/202434534543.png)
 
 - **python .\rule.py -u #指定文件路径 默认输出到当前位置，文件名+时间戳**
 
-  ![image](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/image-202.png)
+  ![image](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/2024453534.png)
 
 - **python .\rule.py -u  url.txt  -o  output.txt  指定输出**
 
-  ![image](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/image-2024765.png)
+  ![image](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/20244543543.png)
 
 # 关于后期
 
