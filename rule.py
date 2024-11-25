@@ -85,13 +85,13 @@ FLAGS (规则管理模式专用参数，需使用 -ul 启用):
   --g=更改      修改指定规则，支持编辑已有规则内容。
 
 EXAMPLES:
-  python gl-zxg.py -u "input.txt" -o "output.txt"
+  python rule.py -u "input.txt" -o "output.txt"
       过滤 input.txt 文件内容并将结果保存至 output.txt 文件中。
 
-  python gl-zxg.py -u "input.txt"
+  python rule.py -u "input.txt"
       过滤 input.txt 文件内容并将结果保存至当前目录下的自动生成文件中。
 
-  python gl-zxg.py -ul
+  python rule.py -ul
       进入规则管理模块，可选择添加、删除或修改规则。
 
 注意:
