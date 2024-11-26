@@ -20,13 +20,13 @@
 
 - **python .\rule.py -u #指定文件路径 默认输出到当前位置，文件名+时间戳**
 
-  ![](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/241126213006.png)
-
-  ![](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/41126213013.png)
+  
 
 - **python .\rule.py -u  url.txt  -o  output.txt  指定输出**
 
-  ![image](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/20244543543.png)
+  ![](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/241126213006.png)
+  
+  ![](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/41126213013.png)
 
 # 关于后期
 
