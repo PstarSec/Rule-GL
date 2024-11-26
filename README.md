@@ -12,7 +12,7 @@
 
 - **python rule.py -h#使用帮助**
 
-  ![image](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/20244243435.png)
+  ![](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/41126213104.png)
 
 - **python rule.py -ul #规则管理模块**
 
@@ -20,7 +20,9 @@
 
 - **python .\rule.py -u #指定文件路径 默认输出到当前位置，文件名+时间戳**
 
-  ![image](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/2024453534.png)
+  ![](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/241126213006.png)
+
+  ![](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/41126213013.png)
 
 - **python .\rule.py -u  url.txt  -o  output.txt  指定输出**
 
