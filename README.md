@@ -20,7 +20,7 @@
 
 - **python .\rule.py -u #指定文件路径 默认输出到当前位置，文件名+时间戳**
 
-  
+  ![](https://github.com/ZXGbilibili/Rule-GL/blob/main/img/1126213856.png)
 
 - **python .\rule.py -u  url.txt  -o  output.txt  指定输出**
 
