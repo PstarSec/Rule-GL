@@ -97,11 +97,33 @@ class FileFilter:
         for idx, text in enumerate(sorted(matched_texts_set), 1):  # 排序后编号
             print(colorize(f"{idx}: {text}", "blue"))
 
+        # 选择保留命中的文本或过滤后的文本
+        choice = input(
+            "请选择操作：\n1. 只保留命中的文本（即匹配到规则的文本）\n2. 保留过滤后的文本(不含命中规则的)\n请选择（1或2）："
+        ).strip()
+
+        if choice == "1":
+            # 保留命中的文本
+            result_lines = sorted(matched_texts_set)
+            print(colorize("选择了保留命中的文本。", "green"))
+        elif choice == "2":
+            # 保留过滤后的文本
+            result_lines = filtered_lines
+            print(colorize("选择了保留过滤后的文本(不含命中规则的)。", "green"))
+        else:
+            print(colorize("无效选择，退出。", "red"))
+            return
+
+        # 彻底去除空行，确保所有无效的行都被清除
+        result_lines = [line.strip() for line in result_lines if line.strip()]
+
         # 写入输出文件
         with open(output_file, "w", encoding="utf-8") as f:
-            f.writelines(filtered_lines)
+            for line in result_lines:
+                f.write(f"{line}\n")
 
-        print(f"过滤完成，结果保存到：{colorize(output_file, 'purple')}")
+        # 简化结果保存提示信息，避免重复输出
+        print(f"过滤结果已保存到：{colorize(output_file, 'purple')}")
 
 
 # 示例：执行文件过滤
